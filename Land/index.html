@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Awesome landing page for your business or product">
+    <meta name="keywords" content="landing page, minimal design, responsive, fast, product">
+    <meta name="author" content="Your Name">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bharath Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Ensure href matches the section ID -->
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br>
+
+    <header class="hero text-center d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4" id="products">Welcome to <span class="typing-text"></span></h1>
+            <p class="lead">Explore a wide selection of premium products crafted to meet your needs, from high-tech gadgets and stylish fashion to elegant jewelry and more.</p>
+            
+            <div id="hero-product-list" class="row justify-content-center"></div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="scroll-section section-hidden container py-5 text-center">
+        <h2>Features</h2>
+        <div class="row py-4">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <i class="bi bi-lightning-charge-fill"></i>
+                    <h3>Fast and Lightweight</h3>
+                    <p>Optimized for fast performance.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <i class="bi bi-phone-fill"></i>
+                    <h3>Fully Responsive</h3>
+                    <p>Looks great on any device.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <i class="bi bi-bullseye"></i>
+                    <h3>SEO Optimized</h3>
+                    <p>Rank higher on search engines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="scroll-section section-hidden testimonials-section">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p>"This product completely transformed the way we operate. Highly recommend!"</p>
+                    <h5>- Sarah Johnson, CEO of Tech Innovators</h5>
+                </div>
+                <div class="testimonial">
+                    <p>"Exceptional quality and service. The team went above and beyond!"</p>
+                    <h5>- John Smith, Marketing Director at BrightIdeas</h5>
+                </div>
+                <div class="testimonial">
+                    <p>"We've seen tremendous growth thanks to their innovative solutions!"</p>
+                    <h5>- Emily Williams, Founder of Creatify</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="scroll-section section-hidden clients-section">
+        <div class="container">
+            <h2>Trusted by Leading Companies</h2>
+            <div class="client-logos">
+                <img src="./images/image2.png" alt="Client 1">
+                <img src="./images/image1-removebg-preview.png" alt="Client 2">
+                <img src="./images/image3.png" alt="Client 3">
+                <img src="./images/micro-removebg-preview.png" alt="Client 4">
+                <img src="./images/twitter-removebg-preview.png" alt="Client 5">
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action (CTA) Section -->
+    <section id="cta" class="cta-section text-center py-5">
+        <div class="container">
+            <h2>Start Today!</h2>
+            <p>Take the first step towards success.</p>
+            <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-section section-hidden py-5">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <p>Get in touch for more information.</p>
+            <form class="w-50 mx-auto">
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media" class="social-media-section scroll-section section-hidden">
+        <div class="container">
+            <h2>Stay Connected</h2>
+            <div class="social-icons">
+                <a href="https://github.com/BharathChandu3" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/7337039835" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/bharath-chandu-tirumalasetty-4b2127261" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/bharathchandutirumalasetty" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@bharathchandutirumalasetty" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <p>© 2024 Bharath Chandu Tirumalasetty. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap and Custom Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
