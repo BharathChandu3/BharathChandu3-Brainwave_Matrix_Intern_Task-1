@@ -30,37 +30,36 @@ bash
 
 cd bharath-store-landing-page
 
-Open index.html in your browser to view the landing page.
+- **Open index.html in your browser to view the landing page.
 
 ## Usage
-When the page loads, it fetches products from the FakeStore API and displays them in a grid.
-The page includes various sections like Features, Testimonials, Clients, Contact, and Social Media.
-The typing animation displays a dynamic, colorful message at the top of the page.
-Scroll down the page to reveal additional sections with smooth animations.
+- **When the page loads, it fetches products from the FakeStore API and displays them in a grid.
+- **The page includes various sections like Features, Testimonials, Clients, Contact, and Social Media.
+- **The typing animation displays a dynamic, colorful message at the top of the page.
+- **Scroll down the page to reveal additional sections with smooth animations.
 ## Technologies
-HTML5: For structure and content.
-CSS3: For styling and responsive design.
-Bootstrap 5: For layout and components.
-JavaScript (ES6): For dynamic product fetching, typing animation, and scroll animations.
-Font Awesome: For icons.
-FakeStore API: For fetching product data.
-Contributing
-Contributions are welcome! Here's how you can get involved:
+- **HTML5: For structure and content.
+- **CSS3: For styling and responsive design.
+- **Bootstrap 5: For layout and components.
+- **JavaScript (ES6): For dynamic product fetching, typing animation, and scroll animations.
+- **Font Awesome: For icons.
+- **FakeStore API: For fetching product data.
+
 
 Fork the project.
-Create a new branch:
+##Create a new branch:
 
-git checkout -b feature-branch
-Make your changes.
-Commit your changes:
+- **git checkout -b feature-branch
+- **Make your changes.
+- **Commit your changes:
 
-git commit -m 'Add some feature'
-Push to the branch:
+- **git commit -m 'Add some feature'
+- **Push to the branch:
 
-git push origin feature-branch
-Open a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **git push origin feature-branch
+- **Open a pull request.
+##License
+- **This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 Create a new branch (git checkout -b feature-branch).
