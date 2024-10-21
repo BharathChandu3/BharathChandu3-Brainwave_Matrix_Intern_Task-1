@@ -25,12 +25,11 @@ This is a modern, responsive landing page for Bharath Store, designed to showcas
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/YourUsername/bharath-store-landing-page.git
-2.Navigate into the project directory:
-
+Navigate into the project directory:
 bash
-
+Copy code
 cd bharath-store-landing-page
-3.Open index.html in your browser to view the landing page.
+Open index.html in your browser to view the landing page.
 
 Usage
 When the page loads, it fetches products from the FakeStore API and displays them in a grid.
@@ -48,6 +47,24 @@ Contributing
 Contributions are welcome! Here's how you can get involved:
 
 Fork the project.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature-branch
+Make your changes.
+Commit your changes:
+bash
+Copy code
+git commit -m 'Add some feature'
+Push to the branch:
+bash
+Copy code
+git push origin feature-branch
+Open a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 Create a new branch (git checkout -b feature-branch).
 Make your changes.
 Commit your changes (git commit -m 'Add some feature').
